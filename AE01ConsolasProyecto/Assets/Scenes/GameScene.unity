@@ -1622,8 +1622,29 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8201342588327194380, guid: 081511ae45f843e499b8d3b0d4c7e601, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1761386427}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6445514974341218740, guid: 081511ae45f843e499b8d3b0d4c7e601, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2602975920613163249}
   m_SourcePrefab: {fileID: 100100000, guid: 081511ae45f843e499b8d3b0d4c7e601, type: 3}
+--- !u!1 &2602975920613163248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6445514974341218740, guid: 081511ae45f843e499b8d3b0d4c7e601, type: 3}
+  m_PrefabInstance: {fileID: 2602975920613163247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2602975920613163249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2602975920613163248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b13fbfdec3999dc499504ccb593ef137, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ControllerWatcher
+  menuScene: MainScene
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
